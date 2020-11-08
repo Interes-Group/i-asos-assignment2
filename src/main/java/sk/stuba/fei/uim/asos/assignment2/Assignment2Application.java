@@ -6,7 +6,7 @@ import lombok.extern.java.Log;
 public class Assignment2Application {
 
     public static void main(String[] args) {
-        log.info("Application started");
+        log.info("Application started...");
     }
 
 }
