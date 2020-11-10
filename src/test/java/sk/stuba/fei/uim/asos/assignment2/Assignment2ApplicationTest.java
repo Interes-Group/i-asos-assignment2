@@ -14,8 +14,7 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.Objects;
 
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 @Log
 public class Assignment2ApplicationTest {
@@ -49,6 +48,14 @@ public class Assignment2ApplicationTest {
         assertTrue(xsdFolder.isDirectory());
         assertNotNull(xsdFolder.list());
         assertTrue(Arrays.stream(Objects.requireNonNull(xsdFolder.list())).anyMatch(file -> file.endsWith(".wsdl")));
+    }
+
+    @Test
+    public void checkForGeneratedClasses() throws IOException {
+        File generatedFolder = new ClassPathResource("sk/stuba/fei/uim/asos/assignment2/ws", this.getClass().getClassLoader()).getFile();
+        assertTrue(generatedFolder.isDirectory());
+        assertNotNull(generatedFolder.list());
+        assertNotEquals(0, Objects.requireNonNull(generatedFolder.list()).length);
     }
 
     @Test

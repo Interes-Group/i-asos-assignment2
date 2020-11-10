@@ -39,7 +39,7 @@ Implementujte jednotlivé webové služby vygenerované týmto pluginom. Webové
 
 ## Inštrukcie v vypracovaniu
 Pred začatím vypracovania zadania zmeňte v `pom.xml` v elemente `<developer>` id na svoje AIS a meno na vaše.
-Pre úspešné implementovanie zadania je potrebné implementovať `InsuranceContractServer` implementujúc rozhranie 
+Pre úspešné implementovanie zadania je potrebné implementovať `InsuranceContractService` implementujúc rozhranie 
 `sk.stuba.fei.uim.asos.assignment2.insurance.service.IInsuranceContractService`. Keďže triedu zmluvy máte vytvoriť v rámci
 tohto zadania pomocou XSD schémy nemohli sme vám poskytnúť konkrétnu implementáciu service triedy. Môžte sa pokojne inšpirovať
 poskytnutou `UserService`, alebo repozitárom vzorového riešenia Zadania 1. Táto trieda nebude braná do úvahy v hodnotení

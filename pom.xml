@@ -79,7 +79,7 @@
                 <artifactId>jaxws-maven-plugin</artifactId>
                 <version>2.6</version>
                 <configuration>
-                    <wsdlDirectory>src/main/resources/</wsdlDirectory>
+                    <wsdlDirectory>src/main/resources/wsdl/</wsdlDirectory>
                     <packageName>sk.stuba.fei.uim.asos.assignment2.ws</packageName>
                     <keep>true</keep>
                     <sourceDestDir>${project.build.directory}/generated-sources/main/java</sourceDestDir>
