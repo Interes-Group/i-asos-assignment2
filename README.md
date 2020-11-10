@@ -1,4 +1,5 @@
 # I-ASOS Zadanie 2
+![Java CI with Maven](https://github.com/Interes-Group/i-asos-assignment2/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)
 ![License MIT](https://img.shields.io/badge/License-MIT-green)
 ![Java 1.8](https://img.shields.io/badge/Java-1.8-blue)
 

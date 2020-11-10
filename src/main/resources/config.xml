@@ -2,4 +2,6 @@
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
+    <bean name="userService" class="sk.stuba.fei.uim.asos.assignment2.user.service.UserService"/>
+
 </beans>
