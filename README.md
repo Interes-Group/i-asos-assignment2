@@ -45,6 +45,11 @@ tohto zadania pomocou XSD schémy nemohli sme vám poskytnúť konkrétnu implem
 poskytnutou `UserService`, alebo repozitárom vzorového riešenia Zadania 1. Táto trieda nebude braná do úvahy v hodnotení
 tohto zadania.
 
+#### Optional
+Pre úpravu odznaku o statuse testov (hneď pod názvom), stačí v README.md upraviť prvý link pri 'Java CI with Maven' na
+`https://github.com/Interes-Group/asos-zadanie-2-<TVOJ GITHUB USERNAME>/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master`
+ (samozrejme bez < > znakov).
+
 ## Hodnotenie
 Zadanie je hodnotené **25 bodmi**. _**Zadanie je nutné odovzdať do 22.11. 23:59!**_
 
