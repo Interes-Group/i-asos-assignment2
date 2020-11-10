@@ -37,6 +37,14 @@ V priečinku `src/main/resources/wsdl` vytvorte WSDL dokument pre svoje SOAP web
 Pomocou maven pluginu `jaxws-maven-plugin` vygenerujte zdrojové kódy do priečinku `target/generated-sources/main/`. 
 Implementujte jednotlivé webové služby vygenerované týmto pluginom. Webové služby prepojte so Spring beanami z prvého zadania.
 
+## Inštrukcie v vypracovaniu
+Pred začatím vypracovania zadania zmeňte v `pom.xml` v elemente `<developer>` id na svoje AIS a meno na vaše.
+Pre úspešné implementovanie zadania je potrebné implementovať `InsuranceContractServer` implementujúc rozhranie 
+`sk.stuba.fei.uim.asos.assignment2.insurance.service.IInsuranceContractService`. Keďže triedu zmluvy máte vytvoriť v rámci
+tohto zadania pomocou XSD schémy nemohli sme vám poskytnúť konkrétnu implementáciu service triedy. Môžte sa pokojne inšpirovať
+poskytnutou `UserService`, alebo repozitárom vzorového riešenia Zadania 1. Táto trieda nebude braná do úvahy v hodnotení
+tohto zadania.
+
 ## Hodnotenie
 Zadanie je hodnotené **25 bodmi**. _**Zadanie je nutné odovzdať do 22.11. 23:59!**_
 
